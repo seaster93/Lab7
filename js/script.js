@@ -2,9 +2,9 @@ function init(){
 //add your javascrip between these two lines of code
  document.getElementById("entrybutton").addEventListener("click", output);
  
- document.getElementById("entrybutton").addEventListener("click", myAlert);
+ document.getElementById("entrybutton").addEventListener("click", Alert);
   } 
-    function myAlert(){
+    function Alert(){
         alert("Sydney Easter: " + document.getElementById("entryinput").value);
     }
     function output(){
